@@ -403,127 +403,109 @@
                 }
 
                 switch (placement) {
-                    case 'inline':
-                        {
-                            _pos = false;
-                        }
-                        break;
-                    case 'topLeftCorner':
-                        {
-                            _pos.my = 'right bottom';
-                            _pos.at = 'left top';
-                        }
-                        break;
+                    case 'inline': {
+                        _pos = false;
+                    }
+                    break;
+                    case 'topLeftCorner': {
+                        _pos.my = 'right bottom';
+                        _pos.at = 'left top';
+                    }
+                    break;
 
-                    case 'topLeft':
-                        {
-                            _pos.my = 'left bottom';
-                            _pos.at = 'left top';
-                        }
-                        break;
+                    case 'topLeft': {
+                        _pos.my = 'left bottom';
+                        _pos.at = 'left top';
+                    }
+                    break;
 
-                    case 'top':
-                        {
-                            _pos.my = 'center bottom';
-                            _pos.at = 'center top';
-                        }
-                        break;
+                    case 'top': {
+                        _pos.my = 'center bottom';
+                        _pos.at = 'center top';
+                    }
+                    break;
 
-                    case 'topRight':
-                        {
-                            _pos.my = 'right bottom';
-                            _pos.at = 'right top';
-                        }
-                        break;
+                    case 'topRight': {
+                        _pos.my = 'right bottom';
+                        _pos.at = 'right top';
+                    }
+                    break;
 
-                    case 'topRightCorner':
-                        {
-                            _pos.my = 'left bottom';
-                            _pos.at = 'right top';
-                        }
-                        break;
+                    case 'topRightCorner': {
+                        _pos.my = 'left bottom';
+                        _pos.at = 'right top';
+                    }
+                    break;
 
-                    case 'rightTop':
-                        {
-                            _pos.my = 'left bottom';
-                            _pos.at = 'right center';
-                        }
-                        break;
+                    case 'rightTop': {
+                        _pos.my = 'left bottom';
+                        _pos.at = 'right center';
+                    }
+                    break;
 
-                    case 'right':
-                        {
-                            _pos.my = 'left center';
-                            _pos.at = 'right center';
-                        }
-                        break;
+                    case 'right': {
+                        _pos.my = 'left center';
+                        _pos.at = 'right center';
+                    }
+                    break;
 
-                    case 'rightBottom':
-                        {
-                            _pos.my = 'left top';
-                            _pos.at = 'right center';
-                        }
-                        break;
+                    case 'rightBottom': {
+                        _pos.my = 'left top';
+                        _pos.at = 'right center';
+                    }
+                    break;
 
-                    case 'bottomRightCorner':
-                        {
-                            _pos.my = 'left top';
-                            _pos.at = 'right bottom';
-                        }
-                        break;
+                    case 'bottomRightCorner': {
+                        _pos.my = 'left top';
+                        _pos.at = 'right bottom';
+                    }
+                    break;
 
-                    case 'bottomRight':
-                        {
-                            _pos.my = 'right top';
-                            _pos.at = 'right bottom';
-                        }
-                        break;
-                    case 'bottom':
-                        {
-                            _pos.my = 'center top';
-                            _pos.at = 'center bottom';
-                        }
-                        break;
+                    case 'bottomRight': {
+                        _pos.my = 'right top';
+                        _pos.at = 'right bottom';
+                    }
+                    break;
+                    case 'bottom': {
+                        _pos.my = 'center top';
+                        _pos.at = 'center bottom';
+                    }
+                    break;
 
-                    case 'bottomLeft':
-                        {
-                            _pos.my = 'left top';
-                            _pos.at = 'left bottom';
-                        }
-                        break;
+                    case 'bottomLeft': {
+                        _pos.my = 'left top';
+                        _pos.at = 'left bottom';
+                    }
+                    break;
 
-                    case 'bottomLeftCorner':
-                        {
-                            _pos.my = 'right top';
-                            _pos.at = 'left bottom';
-                        }
-                        break;
+                    case 'bottomLeftCorner': {
+                        _pos.my = 'right top';
+                        _pos.at = 'left bottom';
+                    }
+                    break;
 
-                    case 'leftBottom':
-                        {
-                            _pos.my = 'right top';
-                            _pos.at = 'left center';
-                        }
-                        break;
+                    case 'leftBottom': {
+                        _pos.my = 'right top';
+                        _pos.at = 'left center';
+                    }
+                    break;
 
-                    case 'left':
-                        {
-                            _pos.my = 'right center';
-                            _pos.at = 'left center';
-                        }
-                        break;
+                    case 'left': {
+                        _pos.my = 'right center';
+                        _pos.at = 'left center';
+                    }
+                    break;
 
-                    case 'leftTop':
-                        {
-                            _pos.my = 'right bottom';
-                            _pos.at = 'left center';
-                        }
-                        break;
+                    case 'leftTop': {
+                        _pos.my = 'right bottom';
+                        _pos.at = 'left center';
+                    }
+                    break;
 
-                    default:
-                        {
-                            return false;
-                        }
-                        break;
+                    default: {
+                        return false;
+                    }
+                    break;
 
                 }
 
