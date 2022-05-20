@@ -1,6 +1,6 @@
 'use strict';
 
-const FONTAWESOME_VERSION = '5.15.1';
+const FONTAWESOME_VERSION = '6.1.1';
 const jsBanner = `/*!
  * Font Awesome Icon Picker
  * https://farbelous.github.io/fontawesome-iconpicker/
