@@ -2143,12 +2143,6 @@
             title: "fas fa-child",
             searchTerms: []
         }, {
-            title: "fas fa-child-dress",
-            searchTerms: []
-        }, {
-            title: "fas fa-child-reaching",
-            searchTerms: []
-        }, {
             title: "fas fa-child-rifle",
             searchTerms: []
         }, {
